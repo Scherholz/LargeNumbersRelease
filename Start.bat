@@ -1,8 +1,8 @@
 cd CalcServer
-start cmd.exe /c LargeNumbersCalc 127.0.0.1 8080 1
+START "CalcServer" LargeNumbersCalc 127.0.0.1 8080 4
 
 cd ..
 cd CSVReadWrite
-start cmd.exe /c LargeNumbersCSV 127.0.0.1 8080
+START "CSVReadWriteClient" LargeNumbersCSV 127.0.0.1 8080
 
 PAUSE
